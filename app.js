@@ -73,6 +73,6 @@ app.use(campgroundRoutes);
 app.use(commentRoutes);
 
 
-app.listen(3000,function(){
+app.listen(5000||process.env.PORT,function(){
 	console.log("sever is running");
 });
